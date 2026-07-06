@@ -17,7 +17,7 @@ with open(inputpath, "r", encoding="utf-8") as f:
         if line == "":
             break
         md_text += line
-    # md_text = f.read()
+
 
 with open(outputpath, "w", encoding="utf-8") as f:
     md = markdown.Markdown()
